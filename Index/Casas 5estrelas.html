@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>5 Estrelas</title>
+    <link href="../CSS/styles.css" rel="stylesheet" />
+    <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+    <link rel="icon" type="image/x-icon" href="../img/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Puddles&display=swap" rel="stylesheet">
+
+    <style>
+        .rox {
+            background-color: #6f00fe;
+        }
+
+        .brasa {
+            font-family: 'Rubik Puddles';
+        }
+
+        .padtop {
+            padding-top: 90px;
+        }
+    </style>
+</head>
+
+<body class="sb-nav-fixed">
+    <nav class="sb-topnav navbar navbar-expand navbar-dark rox">
+        <!-- Navbar Brand-->
+        <a class="navbar-brand ps-3 brasa">Um outro Brasil</a>
+        <!-- Sidebar Toggle-->
+        <button class="btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0" id="sidebarToggle" href="#!"><i
+                class="fas fa-bars"></i></button> <!-- Navbar Search-->
+        <form class="d-none d-md-inline-block form-inline ms-auto me-0 me-md-3 my-2 my-md-0">
+        </form>
+        <!-- Navbar-->
+        <ul class="navbar-nav ms-auto ms-md-0 me-3 me-lg-4">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false"><i class="fas fa-user fa-fw"></i></a>
+                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="../Index/Login.html">Minha conta</a></li>
+                    <li>
+                        <hr class="dropdown-divider" />
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+    <div id="layoutSidenav">
+        <div id="layoutSidenav_nav">
+            <nav class="sb-sidenav accordion sb-sidenav-light" id="sidenavAccordion">
+                <div class="sb-sidenav-menu">
+                    <div class="nav">
+                        <div class="sb-sidenav-menu-heading">Ínicio</div>
+                        <a class="nav-link" href="../Index/Home.html">
+                            <div class="sb-nav-link-icon"><i class="fa-solid fa-earth-americas"></i></div>
+                            Home Page
+                        </a>
+
+                        <div class="sb-sidenav-menu-heading">Lugares para conhecer</div>
+                        <a class="nav-link collapsed" href="#" data-bs-toggle="collapse"
+                            data-bs-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
+                            <div class="sb-nav-link-icon"><i class="fa-solid fa-route"></i></div>
+                            Vale a pena visitar
+                            <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                        </a>
+
+                        <div class="collapse" id="collapseLayouts" aria-labelledby="headingOne"
+                            data-bs-parent="#sidenavAccordion">
+                            <nav class="sb-sidenav-menu-nested nav">
+                                <a class="nav-link" href="../Index/Lugares Estupidamente Lindos.html">Lugares
+                                    estupidamente lindos</a>
+                                <a class="nav-link" href="../Index/5estrelas.html">Classificados 5 estrelas</a>
+                            </nav>
+                        </div>
+
+                        <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapsePages"
+                            aria-expanded="false" aria-controls="collapsePages">
+                            <div class="sb-nav-link-icon"><i class="fa-solid fa-calendar-days"></i></div>
+                            Casas de temporada
+                            <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                        </a>
+
+                        <div class="collapse" id="collapsePages" aria-labelledby="headingTwo"
+                            data-bs-parent="#sidenavAccordion">
+                            <nav class="sb-sidenav-menu-nested nav accordion" id="sidenavAccordionPages">
+                                <a class="nav-link collapsed" href="#" data-bs-toggle="collapse"
+                                    data-bs-target="#pagesCollapseAuth" aria-expanded="false"
+                                    aria-controls="pagesCollapseAuth">
+                                    Casas
+                                    <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                                </a>
+
+                                <div class="collapse" id="pagesCollapseAuth" aria-labelledby="headingOne"
+                                    data-bs-parent="#sidenavAccordionPages">
+                                    <nav class="sb-sidenav-menu-nested nav">
+                                        <a class="nav-link" href="../Index/Casas 5estrelas.html">Casas 5 estrelas</a>
+                                        <a class="nav-link" href="../Index/Chácaras.html">Chácaras</a>
+                                    </nav>
+                                </div>
+
+                                <a class="nav-link collapsed" href="#" data-bs-toggle="collapse"
+                                    data-bs-target="#pagesCollapseError" aria-expanded="false"
+                                    aria-controls="pagesCollapseError">
+                                    Apartamentos
+                                    <div class="sb-sidenav-collapse-arrow"><i class="fas fa-angle-down"></i></div>
+                                </a>
+
+                                <div class="collapse" id="pagesCollapseError" aria-labelledby="headingOne"
+                                    data-bs-parent="#sidenavAccordionPages">
+                                    <nav class="sb-sidenav-menu-nested nav">
+                                        <a class="nav-link" href="../Index/Apto 5estrelas.html">Apartamentos 5
+                                            estrelas</a>
+                                    </nav>
+                                </div>
+                            </nav>
+                        </div>
+
+                        <div class="sb-sidenav-menu-heading">Lugares para morar</div>
+                        <a class="nav-link" href="../Index/Casas.html">
+                            <div class="sb-nav-link-icon"><i class="fa-solid fa-house"></i></div>
+                            Casas
+                        </a>
+
+                        <a class="nav-link" href="../Index/Apartamentos.html">
+                            <div class="sb-nav-link-icon"><i class="fa-solid fa-hotel"></i></div>
+                            Apartamentos
+                        </a>
+
+                        <!-- Espaco-->
+                        <div class="sb-sidenav-menu-heading"></div>
+                    </div>
+                </div>
+
+                <div class="sb-sidenav-footer">
+                    Conheça os melhores locais do Brasil
+                </div>
+            </nav>
+        </div>
+        <div id="layoutSidenav_content">
+            <main>
+                <div class="container-fluid px-4 ">
+                    <h1 class="padtop container px-4 px-lg-5 ">Conheça a seleção 5 estrelas da <span class="brasa">'Um
+                            Outro Brasil'<span></h1>
+                    <div class="container px-4 px-lg-5">
+                        <div class="mt-4 p-5 rox text-white rounded">
+                            <h1>Visitados e aprovados por nós</h1>
+                            <p>Nos reunimos os melhores lugares do Brasil e indicamos pra você o nosso melhor cliente,
+                                mas e ai como funciona a seleção 5 estrela? São locais que alcançaram o nível máximo de
+                                conforto, beleza, localização, facilidades e claro o melhor custo por experiência</p>
+                        </div>
+                    </div>
+
+                    <div class="container px-4 px-lg-5 padtop">
+                        <!-- Section-->
+                        <div class="container px-4 px-lg-5 mt-5">
+                            <section class="py-5">
+                                <div class="container px-4 px-lg-5 my-5">
+                                    <div class="row gx-4 gx-lg-5 align-items-center">
+                                        <div class="col-md-6"><img class="card-img-top mb-5 mb-md-0"
+                                                src="../img/casa5s.jpg" alt="..." /></div>
+                                        <div class="col-md-6">
+                                            <div class="small mb-1"></div>
+											<div class="small mb-1">Casa Residensial</div>
+                                            <h1 class="display-5 fw-bolder">Casa em destaque</h1>
+             
+                                            <p class="lead">Sua nova casa de luxo é mais do que um imóvel, é um estilo
+                                                de vida que você merece.</p>
+                                            <div class="d-flex">
+                                                <button class="btn btn-outline-dark flex-shrink-0" type="button">
+                                                    <i class="fa-solid fa-house-circle-check"></i> Alugar
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+
+                            <!-- Related items section-->
+                            <section class="py-5 bg-light">
+                                <div class="container px-4 px-lg-5 mt-5">
+                                    <h2 class="fw-bolder mb-4">Conheça algumas das residencias</h2>
+                                    <div
+                                        class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+                                        <div class="col mb-5">
+                                            <div class="card h-100">
+                                                <!-- Product image-->
+                                                <img class="card-img-top" src="../img/casa5s2.jpg" alt="..." />
+                                                <!-- Product details-->
+                                                <div class="card-body p-4">
+                                                    <div class="text-center">
+                                                        <!-- Product name-->
+                                                        <h5 class="fw-bolder">Casa Destaque</h5>
+                                         
+                                       
+												         <div class="d-flex justify-content-center small text-warning mb-2">
+                                                            <div class="bi-star-fill"></div>
+                                                            <div class="bi-star-fill"></div>
+                                                            <div class="bi-star-fill"></div>
+                                                            <div class="bi-star-fill"></div>
+                                                            <div class="bi-star-fill"></div>
+                                                        </div>
+														 </div>
+													 </div>
+                                                <!-- Product actions-->
+                                                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                                    <div class="text-center"><button class="btn btn-outline-dark flex-shrink-0" type="button">
+                                                    <i class="fa-solid fa-house-circle-check"></i> Alugar
+                                                </button>
+													</div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col mb-5">
+                                            <div class="card h-100">
+                                                <!-- Sale badge-->
+                         
+                                                <!-- Product image-->
+                                                <img class="card-img-top" src="../img/casa5s5.jpg" alt="..." />
+                                                <!-- Product details-->
+                                                <div class="card-body p-4">
+                                                    <div class="text-center">
+                                                        <!-- Product name-->
+                                                        <h5 class="fw-bolder">Casa Destaque</h5>
+                                                        <!-- Product reviews-->
+                                                        <div
+                                                            class="d-flex justify-content-center small text-warning mb-2">
+                                                            <div class="bi-star-fill"></div>
+                                                            <div class="bi-star-fill"></div>
+                                                            <div class="bi-star-fill"></div>
+                                                            <div class="bi-star-fill"></div>
+                                                            <div class="bi-star-fill"></div>
+                                                        </div>
+                                                        <!-- Product price-->
+                
+                                                    </div>
+                                                </div>
+                                                <!-- Product actions-->
+                                                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                                    <div class="text-center"><button class="btn btn-outline-dark flex-shrink-0" type="button">
+                                                    <i class="fa-solid fa-house-circle-check"></i> Alugar
+                                                </button></div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col mb-5">
+                                            <div class="card h-100">
+                                                <!-- Sale badge-->
+                                                <div class="badge bg-dark text-white position-absolute"
+                                                    style="top: 0.5rem; right: 0.5rem">Recomendado</div>
+                                                <!-- Product image-->
+                                                <img class="card-img-top" src="../img/casa5s4.jpg" alt="..." />
+                                                                    <!-- Product details-->
+                                                <div class="card-body p-4">
+                                                    <div class="text-center">
+                                                        <!-- Product name-->
+                                                        <h5 class="fw-bolder">Casa Destaque</h5>
+                                         
+                                       
+												         <div class="d-flex justify-content-center small text-warning mb-2">
+                                                            <div class="bi-star-fill"></div>
+                                                            <div class="bi-star-fill"></div>
+                                                            <div class="bi-star-fill"></div>
+                                                            <div class="bi-star-fill"></div>
+                                                            <div class="bi-star-fill"></div>
+                                                        </div>
+														 </div>
+													 </div>
+                                                <!-- Product actions-->
+                                                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                                    <div class="text-center"><button class="btn btn-outline-dark flex-shrink-0" type="button">
+                                                    <i class="fa-solid fa-house-circle-check"></i> Alugar
+                                                </button>
+													</div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="col mb-5">
+                                            <div class="card h-100">
+                                                <!-- Product image-->
+                                                <img class="card-img-top" src="../img/casa5s3.jpg" alt="..." />
+                                                                  <!-- Product details-->
+                                                <div class="card-body p-4">
+                                                    <div class="text-center">
+                                                        <!-- Product name-->
+                                                        <h5 class="fw-bolder">Casa Destaque</h5>
+                                         
+                                       
+												         <div class="d-flex justify-content-center small text-warning mb-2">
+                                                            <div class="bi-star-fill"></div>
+                                                            <div class="bi-star-fill"></div>
+                                                            <div class="bi-star-fill"></div>
+                                                            <div class="bi-star-fill"></div>
+                                                            <div class="bi-star-fill"></div>
+                                                        </div>
+														 </div>
+													 </div>
+                                                <!-- Product actions-->
+                                                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                                    <div class="text-center"><button class="btn btn-outline-dark flex-shrink-0" type="button">
+                                                    <i class="fa-solid fa-house-circle-check"></i> Alugar
+                                                </button>
+													</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                            
+                        </div>
+                    </div>
+            </main>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+            crossorigin="anonymous"></script>
+    <script src="../JS/scripts.js"></script> 
+</body>
+
+</html>
